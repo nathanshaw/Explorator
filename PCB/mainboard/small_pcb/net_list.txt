@@ -1,0 +1,247 @@
+Netlist
+
+Exported from explorator_mainboard_v2_58mm.sch at 3/21/23 1:47 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net        Part     Pad      Pin        Sheet
+
+3.3V       C5       1        1          1
+           P1       3        3          1
+           POT1     3        3          1
+           POT2     3        3          1
+           R10      2        2          1
+           R11      2        2          1
+           R12      2        2          1
+           R14      2        2          1
+           R6       2        2          1
+           U$1      3.3V     3.3V       1
+           U2       1        VDD        1
+           VMEL2    4        ADDR       1
+
+5V         C1       +        +          1
+           CN1      1        1          1
+           CN10     1        1          1
+           CN2      1        1          1
+           CN3      1        1          1
+           CN4      1        1          1
+           CN5      1        1          1
+           CN6      1        1          1
+           CN7      1        1          1
+           CN8      1        1          1
+           CN9      1        1          1
+           NEO1     1-VDD    VDD        1
+           NEO10    1-VDD    VDD        1
+           NEO2     1-VDD    VDD        1
+           NEO3     1-VDD    VDD        1
+           NEO4     1-VDD    VDD        1
+           NEO5     1-VDD    VDD        1
+           NEO6     1-VDD    VDD        1
+           NEO7     1-VDD    VDD        1
+           NEO8     1-VDD    VDD        1
+           NEO9     1-VDD    VDD        1
+           NEO_2A1  3        3          1
+           P1       2        2          1
+           P2       4        4          1
+           PWR_REG  VOUT     VOUT       1
+           U$1      VIN      VIN        1
+
+12V        12V_IN   1        S          1
+           C2       +        +          1
+           D1       A        C          1
+           D4       A        C          1
+           MOT1     VIN      VIN        1
+           PWR_REG  VIN      VIN        1
+           SOL1     1        S          1
+           SOL2     1        S          1
+
+AGND       POT1     1        1          1
+           POT2     1        1          1
+           U$1      AGND     AGND       1
+
+BUT1       BUT1     2        2          1
+           R12      1        1          1
+           U$1      4        4/CAN-RX/PWM 1
+
+BUT2       BUT2     2        2          1
+           R14      1        1          1
+           U$1      6        6/PWM      1
+
+ENC_A      P2       3        3          1
+           U$1      12       12/MISO    1
+
+ENC_B      P2       2        2          1
+           U$1      11       11/MOSI    1
+
+GND        12V_IN   2        S          1
+           BUT1     1        1          1
+           BUT2     1        1          1
+           C1       -        -          1
+           C2       -        -          1
+           C3       2        2          1
+           C5       2        2          1
+           C7       2        2          1
+           C8       2        2          1
+           C9       2        2          1
+           CN1      2        2          1
+           CN10     2        2          1
+           CN2      2        2          1
+           CN3      2        2          1
+           CN4      2        2          1
+           CN5      2        2          1
+           CN6      2        2          1
+           CN7      2        2          1
+           CN8      2        2          1
+           CN9      2        2          1
+           MOT1     GND1     GND1       1
+           MOT1     GND2     GND2       1
+           NEO1     3-GND    GND        1
+           NEO10    3-GND    GND        1
+           NEO2     3-GND    GND        1
+           NEO3     3-GND    GND        1
+           NEO4     3-GND    GND        1
+           NEO5     3-GND    GND        1
+           NEO6     3-GND    GND        1
+           NEO7     3-GND    GND        1
+           NEO8     3-GND    GND        1
+           NEO9     3-GND    GND        1
+           NEO_2A1  1        1          1
+           P1       1        1          1
+           P2       1        1          1
+           PWR      1        1          1
+           PWR_REG  GND      GND        1
+           Q1       S        S          1
+           Q2       S        S          1
+           U$1      GND      GND        1
+           U2       4        VSS        1
+           U2       5        VSS        1
+           VMEL1    1        GND        1
+           VMEL1    4        ADDR       1
+           VMEL2    1        GND        1
+
+I2S_BCLK   P1       8        8          1
+           U$1      9        9/RX2/PWM  1
+
+I2S_DATA   P1       10       10         1
+           U$1      13       13/SCK/LED 1
+
+I2S_LRCLK  P1       9        9          1
+           U$1      23/A9    23/A9/T/PWM 1
+
+INT        VMEL1    3        INT        1
+           VMEL2    3        INT        1
+
+MOT1_COAST MOT1     EN       EN         1
+           U$1      14/A0    14/A1      1
+
+MOT1_DIR   MOT1     DIR      DIR        1
+           U$1      20/A6    20/A6/PWM  1
+
+MOT1_FAULT MOT1     FAULT    FAULT      1
+           U$1      16/A2    16/A2/T    1
+
+MOT1_SPEED MOT1     PWM      PWM        1
+           U$1      21/A7    21/A7/PWM  1
+
+N$1        NEO4     2-DOUT   DO         1
+           NEO5     4-DIN    DI         1
+
+N$2        NEO1     4-DIN    DI         1
+           NEO5     2-DOUT   DO         1
+
+N$3        M1       2        S          1
+           MOT1     M2       M2         1
+
+N$4        NEO1     2-DOUT   DO         1
+           NEO2     4-DIN    DI         1
+
+N$5        NEO2     2-DOUT   DO         1
+           NEO3     4-DIN    DI         1
+
+N$6        NEO3     2-DOUT   DO         1
+           NEO8     4-DIN    DI         1
+
+N$7        C3       1        1          1
+           C7       1        1          1
+           C8       1        1          1
+           C9       1        1          1
+           R6       1        1          1
+           VMEL1    6        VDD        1
+           VMEL2    6        VDD        1
+
+N$8        NEO4     4-DIN    DI         1
+           R5       1        1          1
+
+N$9        M1       1        S          1
+           MOT1     M1       M1         1
+
+N$10       PWR      2        2          1
+           PWR_REG  EN       EN         1
+
+N$11       NEO8     2-DOUT   DO         1
+           NEO9     4-DIN    DI         1
+
+N$12       NEO10    4-DIN    DI         1
+           NEO9     2-DOUT   DO         1
+
+N$13       Q2       G        G          1
+           R4       2        2          1
+
+N$14       D4       C        A          1
+           Q2       D        D          1
+           SOL2     2        S          1
+
+N$15       NEO10    2-DOUT   DO         1
+           NEO6     4-DIN    DI         1
+
+N$16       NEO6     2-DOUT   DO         1
+           NEO7     4-DIN    DI         1
+
+N$24       Q1       G        G          1
+           R1       2        2          1
+
+N$25       D1       C        A          1
+           Q1       D        D          1
+           SOL1     2        S          1
+
+NEO1_OUT   JP1      3        3          1
+           NEO7     2-DOUT   DO         1
+
+NEO_OUT    JP1      2        2          1
+           NEO_2A1  2        2          1
+
+NEO_PIX1   R5       2        2          1
+           U$1      5        5/PWM      1
+
+NEO_PIX2   JP1      1        1          1
+           P1       5        5          1
+           U$1      10       10/TX2/PWM 1
+
+NOUT       P1       4        4          1
+
+POT1       POT1     2        2          1
+           U$1      17/A3    17/A3/T    1
+
+POT2       POT2     2        2          1
+           U$1      15/A1    15/A1/T    1
+
+SCL0       P1       7        7          1
+           R11      1        1          1
+           U$1      19/A5    19/A5/T/SCL0 1
+           U2       2        SCL        1
+           VMEL1    5        SCL        1
+           VMEL2    5        SCL        1
+
+SDA0       P1       6        6          1
+           R10      1        1          1
+           U$1      18/A4    18/A4/T/SDA0 1
+           U2       3        SDA        1
+           VMEL1    2        SDA        1
+           VMEL2    2        SDA        1
+
+SOL1       R1       1        1          1
+           U$1      3        3/CAN-TX/PWM 1
+
+SOL2       R4       1        1          1
+           U$1      7        7/RX3      1
+

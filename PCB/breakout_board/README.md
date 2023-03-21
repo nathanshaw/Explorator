@@ -10,7 +10,10 @@ To provide environmental sensing capability.
 ## Schematic
 ![Schematic](schematic_explorator_breakout_pcb.png)
 ## Layout
-![Layout](layout_explorator_breakout_pcb_bottom_fill.png) ![Layout](layout_explorator_breakout_pcb_both_nofill.png) ![Layout](layout_explorator_breakout_pcb_top_fill.png)
+| Bottom  |  Both  |  Top  |
+| ------- | ------- | ------- |
+| ![Layout](layout_explorator_breakout_pcb_bottom_fill.png) | ![Layout](layout_explorator_breakout_pcb_both_nofill.png) | ![Layout](layout_explorator_breakout_pcb_top_fill.png) |
+
 
 
 
