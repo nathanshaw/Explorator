@@ -1,0 +1,48 @@
+Partlist
+
+Exported from explorator_breakout_pcb_40mm_v2.sch at 3/21/23 11:15 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                  Device                 Package                         Library              Sheet
+
+C1       0.1uf                  C-USC0805              C0805                           rcl                  1
+C2       0.1uF                  C-USC0805              C0805                           rcl                  1
+C3       1mF                    CPOL-EU153CLV-1012     153CLV-1012                     rcl                  1
+C4       10uf                   C-USC0805              C0805                           rcl                  1
+C8       0.1uF                  C-USC0805              C0805                           rcl                  1
+C9       200pF                  C-USC0805              C0805                           rcl                  1
+JP1      JUMPER-SMT-3POS_NC_ONE JUMPER-SMT-3POS_NC_ONE SMT-JUMPER_3_1-NC_TRACE_NO-SILK nathans-custom-parts 1
+JP3      JUMPER-SMT-3POS_NC_ONE JUMPER-SMT-3POS_NC_ONE SMT-JUMPER_3_1-NC_TRACE_NO-SILK nathans-custom-parts 1
+JP4      JUMPER-SMT-2POS        JUMPER-SMT-2POS        SMT-JUMPER_2_NO_NO-SILK         nathans-custom-parts 1
+MK_REAR  SPH-IMPROVED           SPH-IMPROVED           MIC_SPH0645LM4H-B_LARGER_RING   SPH0645LM4H-B        1
+NC1      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC2      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC3      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC4      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC5      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC6      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC7      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC8      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC9      0.1uf                  C-USC0805              C0805                           rcl                  1
+NC10     0.1uf                  C-USC0805              C0805                           rcl                  1
+NEO_01   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_02   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_03   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_04   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_05   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_06   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_07   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_08   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_09   WS2812                 WS2812                 WS2812B                         WS2812B              1
+NEO_10   WS2812                 WS2812                 WS2812B                         WS2812B              1
+P1       B10B-PH-K              B10B-PH-K              B10B-PH-K                       con-jst-ph           1
+R3       10R                    R-US_R0805             R0805                           PulseOximeterECG_AU  1
+R5       4.7k                   R-US_R0805             R0805                           PulseOximeterECG_AU  1
+R6       4.7k                   R-US_R0805             R0805                           PulseOximeterECG_AU  1
+R15      68R                    R-US_R0805             R0805                           PulseOximeterECG_AU  1
+U1       SHTC3                  SHTC3                  SHTC3                           SHTC3                1
+U2       VEML6030-GS15          VEML6030-GS15          VISHAY_VEML6030_2X2X0.87        VEML6030-GS15        1
+VEML_F   VEML7700-TT            VEML7700-TT            VEML7700                        VEML7700-TT          1
