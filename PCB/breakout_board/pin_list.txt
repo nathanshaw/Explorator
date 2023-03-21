@@ -1,0 +1,165 @@
+Pinlist
+
+Exported from explorator_breakout_pcb_40mm_v2.sch at 3/21/23 12:18 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+C1       1        1          pas      N$1
+         2        2          pas      GND
+
+C2       1        1          pas      3.3V
+         2        2          pas      GND
+
+C3       +        +          pas      5V
+         -        -          pas      GND
+
+C4       1        1          pas      N$1
+         2        2          pas      GND
+
+C8       1        1          pas      3.3V
+         2        2          pas      GND
+
+C9       1        1          pas      3.3V
+         2        2          pas      GND
+
+JP1      1        1          pas      N$2
+         2        2          pas      NIN
+         3        3          pas      NEOP_IN
+
+JP3      1        1          pas      GND
+         2        2          pas      N$6
+         3        3          pas      3.3V
+
+JP4      1        1          pas      NEOP_OUT
+         2        2          pas      NEOP_IN
+
+MK_REAR  1        WS         in       LRCLK
+         2        SELECT     in       N$6
+         4        BCLK       in       BCLK
+         5        VDD        pwr      3.3V
+         6        DATA_OUT   out      N$17
+         P$1      GND        pwr      GND
+
+NC1      1        1          pas      5V
+         2        2          pas      GND
+
+NC2      1        1          pas      5V
+         2        2          pas      GND
+
+NC3      1        1          pas      5V
+         2        2          pas      GND
+
+NC4      1        1          pas      5V
+         2        2          pas      GND
+
+NC5      1        1          pas      5V
+         2        2          pas      GND
+
+NC6      1        1          pas      5V
+         2        2          pas      GND
+
+NC7      1        1          pas      5V
+         2        2          pas      GND
+
+NC8      1        1          pas      5V
+         2        2          pas      GND
+
+NC9      1        1          pas      5V
+         2        2          pas      GND
+
+NC10     1        1          pas      5V
+         2        2          pas      GND
+
+NEO_01   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       NEOP_IN
+         2-DOUT   DO         out      NEO_P1
+
+NEO_02   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       NEO_P1
+         2-DOUT   DO         out      N$4
+
+NEO_03   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$4
+         2-DOUT   DO         out      N$10
+
+NEO_04   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$10
+         2-DOUT   DO         out      N$8
+
+NEO_05   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$8
+         2-DOUT   DO         out      N$2
+
+NEO_06   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$2
+         2-DOUT   DO         out      NEO_P2
+
+NEO_07   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       NEO_P2
+         2-DOUT   DO         out      N$7
+
+NEO_08   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$7
+         2-DOUT   DO         out      N$9
+
+NEO_09   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$9
+         2-DOUT   DO         out      N$5
+
+NEO_10   1-VDD    VDD        pwr      5V
+         3-GND    GND        pwr      GND
+         4-DIN    DI         in       N$5
+         2-DOUT   DO         out      NEOP_OUT
+
+P1       1        1          pas      GND
+         2        2          pas      5V
+         3        3          pas      3.3V
+         4        4          pas      NIN
+         5        5          pas      NEOP_OUT
+         6        6          pas      SDA0
+         7        7          pas      SCL0
+         8        8          pas      BCLK
+         9        9          pas      LRCLK
+         10       10         pas      DIN
+
+R3       1        1          pas      N$1
+         2        2          pas      3.3V
+
+R5       1        1          pas      SCL0
+         2        2          pas      3.3V
+
+R6       1        1          pas      SDA0
+         2        2          pas      3.3V
+
+R15      1        1          pas      N$17
+         2        2          pas      DIN
+
+U1       1        VDD        io       3.3V
+         2        SCL        io       SCL0
+         3        SDA        io       SDA0
+         4        VSS        io       GND
+         5        VSS        io       GND
+
+U2       1        GND        pwr      GND
+         2        SDA        io       SDA0
+         3        INT        out               *** unconnected ***
+         4        ADDR       io       GND
+         5        SCL        in       SCL0
+         6        VDD        pwr      N$1
+
+VEML_F   1        SCL        io       SCL0
+         2        VDD        io       N$1
+         3        GND        io       GND
+         4        SDA        io       SDA0
+

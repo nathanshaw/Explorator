@@ -1,0 +1,149 @@
+Netlist
+
+Exported from explorator_breakout_pcb_40mm_v2.sch at 3/21/23 12:23 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net      Part     Pad      Pin        Sheet
+
+3.3V     C2       1        1          1
+         C8       1        1          1
+         C9       1        1          1
+         JP3      3        3          1
+         MK_REAR  5        VDD        1
+         P1       3        3          1
+         R3       2        2          1
+         R5       2        2          1
+         R6       2        2          1
+         U1       1        VDD        1
+
+5V       C3       +        +          1
+         NC1      1        1          1
+         NC10     1        1          1
+         NC2      1        1          1
+         NC3      1        1          1
+         NC4      1        1          1
+         NC5      1        1          1
+         NC6      1        1          1
+         NC7      1        1          1
+         NC8      1        1          1
+         NC9      1        1          1
+         NEO_01   1-VDD    VDD        1
+         NEO_02   1-VDD    VDD        1
+         NEO_03   1-VDD    VDD        1
+         NEO_04   1-VDD    VDD        1
+         NEO_05   1-VDD    VDD        1
+         NEO_06   1-VDD    VDD        1
+         NEO_07   1-VDD    VDD        1
+         NEO_08   1-VDD    VDD        1
+         NEO_09   1-VDD    VDD        1
+         NEO_10   1-VDD    VDD        1
+         P1       2        2          1
+
+BCLK     MK_REAR  4        BCLK       1
+         P1       8        8          1
+
+DIN      P1       10       10         1
+         R15      2        2          1
+
+GND      C1       2        2          1
+         C2       2        2          1
+         C3       -        -          1
+         C4       2        2          1
+         C8       2        2          1
+         C9       2        2          1
+         JP3      1        1          1
+         MK_REAR  P$1      GND        1
+         NC1      2        2          1
+         NC10     2        2          1
+         NC2      2        2          1
+         NC3      2        2          1
+         NC4      2        2          1
+         NC5      2        2          1
+         NC6      2        2          1
+         NC7      2        2          1
+         NC8      2        2          1
+         NC9      2        2          1
+         NEO_01   3-GND    GND        1
+         NEO_02   3-GND    GND        1
+         NEO_03   3-GND    GND        1
+         NEO_04   3-GND    GND        1
+         NEO_05   3-GND    GND        1
+         NEO_06   3-GND    GND        1
+         NEO_07   3-GND    GND        1
+         NEO_08   3-GND    GND        1
+         NEO_09   3-GND    GND        1
+         NEO_10   3-GND    GND        1
+         P1       1        1          1
+         U1       4        VSS        1
+         U1       5        VSS        1
+         U2       1        GND        1
+         U2       4        ADDR       1
+         VEML_F   3        GND        1
+
+LRCLK    MK_REAR  1        WS         1
+         P1       9        9          1
+
+N$1      C1       1        1          1
+         C4       1        1          1
+         R3       1        1          1
+         U2       6        VDD        1
+         VEML_F   2        VDD        1
+
+N$2      JP1      1        1          1
+         NEO_05   2-DOUT   DO         1
+         NEO_06   4-DIN    DI         1
+
+N$4      NEO_02   2-DOUT   DO         1
+         NEO_03   4-DIN    DI         1
+
+N$5      NEO_09   2-DOUT   DO         1
+         NEO_10   4-DIN    DI         1
+
+N$6      JP3      2        2          1
+         MK_REAR  2        SELECT     1
+
+N$7      NEO_07   2-DOUT   DO         1
+         NEO_08   4-DIN    DI         1
+
+N$8      NEO_04   2-DOUT   DO         1
+         NEO_05   4-DIN    DI         1
+
+N$9      NEO_08   2-DOUT   DO         1
+         NEO_09   4-DIN    DI         1
+
+N$10     NEO_03   2-DOUT   DO         1
+         NEO_04   4-DIN    DI         1
+
+N$17     MK_REAR  6        DATA_OUT   1
+         R15      1        1          1
+
+NEOP_IN  JP1      3        3          1
+         JP4      2        2          1
+         NEO_01   4-DIN    DI         1
+
+NEOP_OUT JP4      1        1          1
+         NEO_10   2-DOUT   DO         1
+         P1       5        5          1
+
+NEO_P1   NEO_01   2-DOUT   DO         1
+         NEO_02   4-DIN    DI         1
+
+NEO_P2   NEO_06   2-DOUT   DO         1
+         NEO_07   4-DIN    DI         1
+
+NIN      JP1      2        2          1
+         P1       4        4          1
+
+SCL0     P1       7        7          1
+         R5       1        1          1
+         U1       2        SCL        1
+         U2       5        SCL        1
+         VEML_F   1        SCL        1
+
+SDA0     P1       6        6          1
+         R6       1        1          1
+         U1       3        SDA        1
+         U2       2        SDA        1
+         VEML_F   4        SDA        1
+
