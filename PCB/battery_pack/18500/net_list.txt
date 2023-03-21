@@ -1,0 +1,70 @@
+Netlist
+
+Exported from 18500_pack_v2.sch at 3/21/23 12:27 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net      Part     Pad      Pin        Sheet
+
+GND      GND      1        P          1
+         P1       2        2          1
+         U$3      P$4      P$4        1
+         U$3      P$5      P$5        1
+         U$3      P$6      P$6        1
+
+HV       HV       1        P          1
+         P1       1        1          1
+         U$1      P$1      P$1        1
+         U$1      P$2      P$2        1
+         U$1      P$3      P$3        1
+
+N$1      U$1      P$4      P$4        1
+         U$1      P$5      P$5        1
+         U$1      P$6      P$6        1
+         U$2      P$1      P$1        1
+         U$2      P$2      P$2        1
+         U$2      P$3      P$3        1
+
+N$2      U$2      P$4      P$4        1
+         U$2      P$5      P$5        1
+         U$2      P$6      P$6        1
+         U$3      P$1      P$1        1
+         U$3      P$2      P$2        1
+         U$3      P$3      P$3        1
+
+N$3      PWR_IN   2        2          1
+         PWR_OUT  2        2          1
+
+N$4      PWR_IN   1        1          1
+         PWR_OUT  1        1          1
+
+N$5      BUT1_IN  2        2          1
+         BUT1_OUT 2        2          1
+
+N$6      BUT1_IN  1        1          1
+         BUT1_OUT 1        1          1
+
+N$7      BUT2_IN  2        2          1
+         BUT2_OUT 2        2          1
+
+N$8      BUT2_IN  1        1          1
+         BUT2_OUT 1        1          1
+
+N$9      POT1_IN  1        1          1
+         POT1_OUT 1        1          1
+
+N$10     POT1_IN  2        2          1
+         POT1_OUT 2        2          1
+
+N$11     POT1_IN  3        3          1
+         POT1_OUT 3        3          1
+
+N$12     POT2_IN  1        1          1
+         POT2_OUT 1        1          1
+
+N$13     POT2_IN  2        2          1
+         POT2_OUT 2        2          1
+
+N$14     POT2_IN  3        3          1
+         POT2_OUT 3        3          1
+

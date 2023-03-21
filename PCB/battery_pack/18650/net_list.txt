@@ -1,0 +1,36 @@
+Netlist
+
+Exported from 18650_pack_v1.sch at 3/21/23 12:35 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net      Part     Pad      Pin        Sheet
+
+GND      P1       2        2          1
+         U$3      P$4      P$4        1
+         U$3      P$5      P$5        1
+         U$3      P$6      P$6        1
+         X1       1        S          1
+         X2       1        S          1
+
+HV       P1       1        1          1
+         U$1      P$1      P$1        1
+         U$1      P$2      P$2        1
+         U$1      P$3      P$3        1
+         X1       2        S          1
+         X2       2        S          1
+
+N$1      U$1      P$4      P$4        1
+         U$1      P$5      P$5        1
+         U$1      P$6      P$6        1
+         U$2      P$1      P$1        1
+         U$2      P$2      P$2        1
+         U$2      P$3      P$3        1
+
+N$2      U$2      P$4      P$4        1
+         U$2      P$5      P$5        1
+         U$2      P$6      P$6        1
+         U$3      P$1      P$1        1
+         U$3      P$2      P$2        1
+         U$3      P$3      P$3        1
+

@@ -1,3 +1,8 @@
+## Schematic
+[Schematic](schematic_18500_pack_both_sides.png)
+# PCB Layout
+
+[Both Sides!](layout_18500_pack_both_sides.png)
 ## 18500 Pack V2 Notes
 This pack is specifically designed to be placed within a 60mm wide enclosure. 
 

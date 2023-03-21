@@ -1,0 +1,70 @@
+Pinlist
+
+Exported from 18500_pack_v2.sch at 3/21/23 12:27 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+BUT1_IN  1        1          pas      N$6
+         2        2          pas      N$5
+
+BUT1_OUT 1        1          pas      N$6
+         2        2          pas      N$5
+
+BUT2_IN  1        1          pas      N$8
+         2        2          pas      N$7
+
+BUT2_OUT 1        1          pas      N$8
+         2        2          pas      N$7
+
+GND      1        P          pas      GND
+
+HV       1        P          pas      HV
+
+P1       1        1          pas      HV
+         2        2          pas      GND
+
+POT1_IN  1        1          pas      N$9
+         2        2          pas      N$10
+         3        3          pas      N$11
+
+POT1_OUT 1        1          pas      N$9
+         2        2          pas      N$10
+         3        3          pas      N$11
+
+POT2_IN  1        1          pas      N$12
+         2        2          pas      N$13
+         3        3          pas      N$14
+
+POT2_OUT 1        1          pas      N$12
+         2        2          pas      N$13
+         3        3          pas      N$14
+
+PWR_IN   1        1          pas      N$4
+         2        2          pas      N$3
+
+PWR_OUT  1        1          pas      N$4
+         2        2          pas      N$3
+
+U$1      P$1      P$1        io       HV
+         P$2      P$2        io       HV
+         P$3      P$3        io       HV
+         P$4      P$4        io       N$1
+         P$5      P$5        io       N$1
+         P$6      P$6        io       N$1
+
+U$2      P$1      P$1        io       N$1
+         P$2      P$2        io       N$1
+         P$3      P$3        io       N$1
+         P$4      P$4        io       N$2
+         P$5      P$5        io       N$2
+         P$6      P$6        io       N$2
+
+U$3      P$1      P$1        io       N$2
+         P$2      P$2        io       N$2
+         P$3      P$3        io       N$2
+         P$4      P$4        io       GND
+         P$5      P$5        io       GND
+         P$6      P$6        io       GND
+
