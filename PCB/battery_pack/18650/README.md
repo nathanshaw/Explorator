@@ -14,9 +14,9 @@ controls (if attached through the PCB).
 **PLEASE NOTE**: The 18500 battery pack actually supports more current than this packi, is smaller, and supports the routing of user control connections through the battery pack to reducing enclosure wiring. HOWEVER, the 18500 pack has traces EXTEMELY close to the edge and must be used with caution.
 
 ## Schematic
-![Schematic]<schematic_18650_pack.png>
+![Schematic](schematic_18650_pack.png)
 ## Layout
-![Layout]<layout_18650_pack_both_sides.png>
+![Layout](layout_18650_pack_both_sides.png)
 
 ### Notes for Future Revisions
 - The PCB size can be reduced

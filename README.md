@@ -6,12 +6,12 @@ The files included in this repo were created within EAGLE CAD.
 ## Repo Structure
 PCB
 - battery_pack
-- - [18500](### Battery Pack - 18500)
-- - [18650](### Battery Pack - 18650) 
-- [breakout_board](### Explorator Breakout PCB)
+- - [18500](## Battery-Pack---18500)
+- - [18650](## Battery-Pack---18650) 
+- [breakout_board](## Explorator-Breakout-PCB)
 - mainboard
-- - [v1_large_pcb](### Explorator v1 Mainboard (large)
-- - [v2_small_pcb](### Explorator v2 Mainboard (small))
+- - [v1_large_pcb](## Explorator-v1-Mainboard-(large)
+- - [v2_small_pcb](## Explorator-v2-Mainboard-(small))
 
 ### Repo Files
 - .brd files are EAGLE's board files and contain information about the PCB's layout. 
