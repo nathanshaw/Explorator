@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-03-21T17:48:51Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "18500_pack_v2"
+        },
+        "Owner": "Nathan Villicaa-Shaw <nathan.nvstech@gmail.com>",
+        "Size": {
+            "X": 58,
+            "Y": 71.492
+        }
+    }
+}

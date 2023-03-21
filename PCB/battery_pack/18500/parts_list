@@ -1,0 +1,26 @@
+Partlist
+
+Exported from 18500_pack_v2.brd at 3/21/23 10:45 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                    Package                       Library              Position (mil)        Orientation
+
+BUT1_IN  B2B-PH-K                 B2B-PH-K                      con-jst-ph           (-255.98425 -1314)    R0
+BUT1_OUT B2B-PH-K                 B2B-PH-K                      con-jst-ph           (-251.73228 1254.26772) R180
+BUT2_IN  B2B-PH-K                 B2B-PH-K                      con-jst-ph           (46.53543 -1314)      R0
+BUT2_OUT B2B-PH-K                 B2B-PH-K                      con-jst-ph           (58.66142 1254.89764) R180
+GND                               2,54/1,1                      wirepad              (613.74016 1300.27559) R0
+HV                                2,54/1,1                      wirepad              (758.66142 1299.2126) R0
+P1       39-30-02?                39-30-?02?                    con-molex-mini-fit   (946.33858 825.59055) MR180
+POT1_IN  B3B-PH-K                 B3B-PH-K                      con-jst-ph           (-949.24409 -1314)    R0
+POT1_OUT B3B-PH-K                 B3B-PH-K                      con-jst-ph           (-950.72441 1254.04724) R180
+POT2_IN  B3B-PH-K                 B3B-PH-K                      con-jst-ph           (-579.48031 -1314)    R0
+POT2_OUT B3B-PH-K                 B3B-PH-K                      con-jst-ph           (-579.48031 1255.52756) R180
+PWR_IN   B2B-PH-K                 B2B-PH-K                      con-jst-ph           (352.33071 -1314)     R0
+PWR_OUT  B2B-PH-K                 B2B-PH-K                      con-jst-ph           (365.11811 1254.72441) R180
+U$1      18500_CLIP_HOLDER_1_CELL 3PINBATTERY_CLIP_1_CELL_18500 nathans-custom-parts (587.59843 829.6063)  R270
+U$2      18500_CLIP_HOLDER_1_CELL 3PINBATTERY_CLIP_1_CELL_18500 nathans-custom-parts (8.85827 829.6063)    MR270
+U$3      18500_CLIP_HOLDER_1_CELL 3PINBATTERY_CLIP_1_CELL_18500 nathans-custom-parts (-589.88189 -888.3937) R90
