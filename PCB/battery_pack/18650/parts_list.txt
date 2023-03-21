@@ -1,0 +1,16 @@
+Partlist
+
+Exported from 18650_pack_v1.brd at 3/21/23 11:26 AM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                        Package                       Library              Position (mil)        Orientation
+
+P1       39-30-02?                    39-30-?02?                    con-molex-mini-fit   (900 3375)            R180
+U$1      18650_SINGLE_CELL_WITH_CLIPS 3PINBATTERY_CLIP_1_CELL_18650 nathans-custom-parts (1400 2700)           R270
+U$2      18650_SINGLE_CELL_WITH_CLIPS 3PINBATTERY_CLIP_1_CELL_18650 nathans-custom-parts (900 2700)            MR270
+U$3      18650_SINGLE_CELL_WITH_CLIPS 3PINBATTERY_CLIP_1_CELL_18650 nathans-custom-parts (400 500)             R90
+X1       5566-2                       5566-2                        con-molex            (500 3650)            R0
+X2       5566-2                       5566-2                        con-molex            (1300 3650)           R0

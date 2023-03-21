@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2023-03-21T18:39:19Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "18650_pack_v1"
+        },
+        "Owner": "Nathan Villicaa-Shaw <nathan.nvstech@gmail.com>",
+        "Size": {
+            "X": 45.7,
+            "Y": 100
+        }
+    }
+}
