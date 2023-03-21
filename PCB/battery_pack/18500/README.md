@@ -1,5 +1,5 @@
 ## Schematic
-![Schematic](schematic_18500_pack_both_sides.png)
+![Schematic](schematic_18500_pack.png)
 # PCB Layout
 ![Both Sides!](layout_18500_pack_both_sides.png)
 ## 18500 Pack V2 Notes
@@ -22,4 +22,4 @@ controls (if attached through the PCB).
 ### Notes for Future Revisions
 - Move logic traces away from side of PCB
 - Consider combining GND and PWR for user controls to reduce traces i
-- - (must investigate the EE implication of this)
+  - (must investigate the EE implication of this)

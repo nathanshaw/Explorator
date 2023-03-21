@@ -1,0 +1,324 @@
+Netlist
+
+Exported from explorator_mainboard_v1_99mm.sch at 3/21/23 12:59 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Net        Part     Pad      Pin        Sheet
+
+3.3V       I2C1     1        1          1
+           I2C2     1        1          1
+           I2C3     1        1          1
+           P1       3        3          1
+           POT1     1        1          1
+           POT2     1        1          1
+           R10      2        2          1
+           R11      2        2          1
+           R12      2        2          1
+           R14      2        2          1
+           R15      2        2          1
+           R16      2        2          1
+           U$2      3.3V     3.3V       1
+           U$2      3.3V1    3.3V       1
+           U$2      3.3V2    3.3V       1
+
+5V         C1       +        +          1
+           C3       +        +          1
+           C4       +        +          1
+           C5       +        +          1
+           C6       1        1          1
+           NEO_1A   1        1          1
+           NEO_1B   1        1          1
+           NEO_2A   1        1          1
+           NEO_2B   1        1          1
+           NEO_3A   1        1          1
+           NEO_3B   1        1          1
+           P1       2        2          1
+           PWR_REG  VOUT     VOUT       1
+           U$2      VIN      VIN        1
+
+12V        12V_IN   1        S          1
+           C2       +        +          1
+           D1       2        C          1
+           D2       2        C          1
+           D3       2        C          1
+           D4       2        C          1
+           D5       2        C          1
+           D6       2        C          1
+           D7       2        C          1
+           D8       2        C          1
+           D9       2        C          1
+           MOT1     VIN      VIN        1
+           MOT2     VIN      VIN        1
+           MOT3     VIN      VIN        1
+           PWR_REG  VIN      VIN        1
+           SOL1     1        S          1
+           SOL2     1        S          1
+           SOL3     1        S          1
+           SOL4     1        S          1
+           SOL5     1        S          1
+           SOL6     1        S          1
+           SOL7     1        S          1
+           SOL8     1        S          1
+           SOL9     1        S          1
+
+AGND       POT1     3        3          1
+           POT2     3        3          1
+           U$2      AGND     AGND       1
+
+AREF       U$2      AREF     AREF       1
+
+BUT1       BUT1     1        1          1
+           R12      1        1          1
+           U$2      33       33/T       1
+
+BUT2       BUT2     1        1          1
+           R14      1        1          1
+           U$2      A13      A13        1
+
+BUT3       BUT3     1        1          1
+           R15      1        1          1
+           U$2      A12      A12        1
+
+BUT4       BUT4     1        1          1
+           R16      1        1          1
+           U$2      17/A3    17/A3/T    1
+
+GND        12V_IN   2        S          1
+           BUT1     2        2          1
+           BUT2     2        2          1
+           BUT3     2        2          1
+           BUT4     2        2          1
+           C1       -        -          1
+           C2       -        -          1
+           C3       -        -          1
+           C4       -        -          1
+           C5       -        -          1
+           C6       2        2          1
+           I2C1     4        4          1
+           I2C2     4        4          1
+           I2C3     4        4          1
+           MOT1     GND1     GND1       1
+           MOT1     GND2     GND2       1
+           MOT2     GND1     GND1       1
+           MOT2     GND2     GND2       1
+           MOT3     GND1     GND1       1
+           MOT3     GND2     GND2       1
+           NEO_1A   3        3          1
+           NEO_1B   3        3          1
+           NEO_2A   3        3          1
+           NEO_2B   3        3          1
+           NEO_3A   3        3          1
+           NEO_3B   3        3          1
+           P1       1        1          1
+           PWR      1        1          1
+           PWR_REG  GND      GND        1
+           Q1       S        S          1
+           Q2       S        S          1
+           Q3       S        S          1
+           Q4       S        S          1
+           Q5       S        S          1
+           Q6       S        S          1
+           Q7       S        S          1
+           Q8       S        S          1
+           Q9       S        S          1
+           U$2      GND      GND        1
+           U$2      GND1     GND        1
+           U$2      GND2     GND        1
+
+I2S_BCLK   P1       8        8          1
+           U$2      9        9/RX2/PWM  1
+
+I2S_DATA   P1       10       10         1
+           U$2      13       13/SCK/LED 1
+
+I2S_LRCLK  P1       9        9          1
+           U$2      23/A9    23/A9/T/PWM 1
+
+MOT1_COAST MOT1     EN       EN         1
+           U$2      28       28/A17     1
+
+MOT1_DIR   MOT1     DIR      DIR        1
+           U$2      26       26/A15     1
+
+MOT1_FAULT MOT1     FAULT    FAULT      1
+           U$2      27       27/A16     1
+
+MOT1_SPEED MOT1     PWM      PWM        1
+           U$2      25       25/T/PWM   1
+
+MOT2_COAST MOT2     EN       EN         1
+           U$2      31       31/A20     1
+
+MOT2_DIR   MOT2     DIR      DIR        1
+           U$2      29       29/A18/SCL1 1
+
+MOT2_FAULT MOT2     FAULT    FAULT      1
+           U$2      30       30/A19/SDA1 1
+
+MOT2_SPEED MOT2     PWM      PWM        1
+           U$2      32       32/T/PWM   1
+
+MOT3_COAST MOT3     EN       EN         1
+           U$2      2        2          1
+
+MOT3_DIR   MOT3     DIR      DIR        1
+           U$2      21/A7    21/A7/PWM  1
+
+MOT3_FAULT MOT3     FAULT    FAULT      1
+           U$2      22/A8    22/A8/T/PWM 1
+
+MOT3_SPEED MOT3     PWM      PWM        1
+           U$2      20/A6    20/A6/PWM  1
+
+N$1        Q5       G        G          1
+           R5       2        2          1
+
+N$2        D5       1        A          1
+           Q5       D        D          1
+           SOL5     2        S          1
+
+N$3        M1       2        S          1
+           MOT1     M2       M2         1
+
+N$4        Q6       G        G          1
+           R6       2        2          1
+
+N$5        Q2       G        G          1
+           R2       2        2          1
+
+N$6        D6       1        A          1
+           Q6       D        D          1
+           SOL6     2        S          1
+
+N$8        D2       1        A          1
+           Q2       D        D          1
+           SOL2     2        S          1
+
+N$9        M1       1        S          1
+           MOT1     M1       M1         1
+
+N$10       PWR      2        2          1
+           PWR_REG  EN       EN         1
+
+N$11       Q3       G        G          1
+           R3       2        2          1
+
+N$12       D3       1        A          1
+           Q3       D        D          1
+           SOL3     2        S          1
+
+N$13       Q4       G        G          1
+           R4       2        2          1
+
+N$14       D4       1        A          1
+           Q4       D        D          1
+           SOL4     2        S          1
+
+N$15       M3       2        S          1
+           MOT3     M2       M2         1
+
+N$16       M3       1        S          1
+           MOT3     M1       M1         1
+
+N$17       Q7       G        G          1
+           R7       2        2          1
+
+N$18       D7       1        A          1
+           Q7       D        D          1
+           SOL7     2        S          1
+
+N$19       Q8       G        G          1
+           R8       2        2          1
+
+N$20       D8       1        A          1
+           Q8       D        D          1
+           SOL8     2        S          1
+
+N$21       Q9       G        G          1
+           R9       2        2          1
+
+N$22       D9       1        A          1
+           Q9       D        D          1
+           SOL9     2        S          1
+
+N$24       Q1       G        G          1
+           R1       2        2          1
+
+N$25       D1       1        A          1
+           Q1       D        D          1
+           SOL1     2        S          1
+
+N$30       M2       2        S          1
+           MOT2     M2       M2         1
+
+N$31       M2       1        S          1
+           MOT2     M1       M1         1
+
+NEO_PIX1   NEO_1A   2        2          1
+           NEO_1B   2        2          1
+           U$2      5        5/PWM      1
+
+NEO_PIX2   NEO_2A   2        2          1
+           NEO_2B   2        2          1
+           U$2      8        8/TX3      1
+
+NEO_PIX3   NEO_3A   2        2          1
+           NEO_3B   2        2          1
+           U$2      10       10/TX2/PWM 1
+
+NIN        P1       5        5          1
+
+NOUT       P1       4        4          1
+
+POT1       POT1     2        2          1
+           U$2      A11      A11        1
+
+POT2       POT2     2        2          1
+           U$2      A10      A10        1
+
+SCL0       I2C1     3        3          1
+           I2C2     3        3          1
+           I2C3     3        3          1
+           P1       7        7          1
+           R11      1        1          1
+           U$2      19/A5    19/A5/T/SCL0 1
+
+SDA0       I2C1     2        2          1
+           I2C2     2        2          1
+           I2C3     2        2          1
+           P1       6        6          1
+           R10      1        1          1
+           U$2      18/A4    18/A4/T/SDA0 1
+
+SOL1       R1       1        1          1
+           U$2      3        3/CAN-TX/PWM 1
+
+SOL2       R2       1        1          1
+           U$2      4        4/CAN-RX/PWM 1
+
+SOL3       R3       1        1          1
+           U$2      6        6/PWM      1
+
+SOL4       R4       1        1          1
+           U$2      12       12/MISO    1
+
+SOL5       R5       1        1          1
+           U$2      11       11/MOSI    1
+
+SOL6       R6       1        1          1
+           U$2      14/A0    14/A0      1
+
+SOL7       R7       1        1          1
+           U$2      15/A1    15/A1/T    1
+
+SOL8       R8       1        1          1
+           U$2      16/A2    16/A2/T    1
+
+SOL9       R9       1        1          1
+           U$2      7        7/RX3      1
+
+VBAT       U$2      VBAT     VBAT       1
+
+VUSB       U$2      VUSB     VUSB       1
+

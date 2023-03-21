@@ -1,0 +1,18 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"LABEL";"MF";"MPN";"OC_FARNELL";"OC_NEWARK";"POPULARITY";"SPICEPREFIX";"VALUE";
+"8";"";"B3B-PH-K";"B3B-PH-K";"NEO_1A, NEO_1B, NEO_2A, NEO_2B, NEO_3A, NEO_3B, POT1, POT2";"HEADER";"";"";"";"";"";"";"";"";
+"1";"0.1uf";"C-USC2012";"C2012";"C6";"CAPACITOR, American symbol";"";"";"";"";"";"";"";"";
+"3";"1 mF";"CPOL-USUD-10X10";"UD-10X10_NICHICON";"C1, C3, C5";"POLARIZED CAPACITOR, American symbol";"";"";"";"";"";"1";"C";"";
+"4";"10k";"R-US_R0805";"R0805";"R12, R14, R15, R16";"RESISTOR, American symbol";"";"";"";"";"";"85";"R";"";
+"1";"10uf";"DIP-ALUMINUM-47UF-16V(D5-H7MM)";"PC-D5.3MM";"C4";"302030033";"";"";"KS 100uF/16V";"";"";"";"";"100uf";
+"9";"1N4004";"1N4004";"DIOAD1138W86L465D235B";"D1, D2, D3, D4, D5, D6, D7, D8, D9";"";"";"";"";"";"";"";"";"";
+"9";"1k";"R-US_R0805";"R0805";"R1, R2, R3, R4, R5, R6, R7, R8, R9";"RESISTOR, American symbol";"";"";"";"";"";"85";"R";"";
+"1";"33uf";"DIP-ALUMINUM-47UF-16V(D5-H7MM)";"PC-D5.3MM";"C2";"302030033";"";"";"KS 100uF/16V";"";"";"";"";"100uf";
+"2";"4.7k";"R-US_R0805";"R0805";"R10, R11";"RESISTOR, American symbol";"";"";"";"";"";"85";"R";"";
+"13";"5566-2";"5566-2";"5566-2";"12V_IN, M1, M2, M3, SOL1, SOL2, SOL3, SOL4, SOL5, SOL6, SOL7, SOL8, SOL9";"Mini FIT connector 2 pol";"";"MOLEX";"";"1822072";"unknown";"";"";"";
+"1";"B10B-PH-K";"B10B-PH-K";"B10B-PH-K";"P1";"HEADER";"";"";"";"";"";"";"";"";
+"5";"B2B-PH-K";"B2B-PH-K";"B2B-PH-K";"BUT1, BUT2, BUT3, BUT4, PWR";"HEADER";"";"";"";"";"";"";"";"";
+"3";"B4B-PH-K";"B4B-PH-K";"B4B-PH-K";"I2C1, I2C2, I2C3";"HEADER";"";"";"";"";"";"";"";"";
+"9";"PNO8L07";"IRF540";"TO220BV";"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9";"HEXFET Power MOSFET";"";"";"";"";"";"7";"";"";
+"3";"POLOLU_MAX14870";"POLOLU_MAX14870";"POLOLU_MAX14870";"MOT1, MOT2, MOT3";"";"";"";"";"";"";"";"";"";
+"1";"S9V11F5S6CMA_MISSINIG_PINS";"S9V11F5S6CMA_MISSINIG_PINS";"S9V11F3S5CMA_MISSING_PINS";"PWR_REG";"";"";"";"";"";"";"";"";"";
+"1";"TEENSY_3.1-3.2_ALL_PINS&PADS";"TEENSY_3.1-3.2_ALL_PINS&PADS";"TEENSY_3.0-3.2_ALL_PINS_&_PADS";"U$2";"Footprint for Teensy 3.1 or 3.2 board using all pads and all through-holes. Pads need a 2x7 0.1" SMD header.";"";"";"";"";"";"";"";"";

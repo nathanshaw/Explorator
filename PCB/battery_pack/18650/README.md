@@ -11,7 +11,7 @@ controls (if attached through the PCB).
 - Both of these numbers are very rough estimates that are assuming an ambient temperature of 25 C, and a maximum trace temperature ride of 10 C
 - The PCB Trace Width Calculator by 4pcb.com is a great tool to help with these calculators: [Try Their Tool Here!]<https://www.4pcb.com/trace-width-calculator.html>
 
-**PLEASE NOTE**: The 18500 battery pack actually supports more current than this packi, is smaller, and supports the routing of user control connections through the battery pack to reducing enclosure wiring. HOWEVER, the 18500 pack has traces EXTEMELY close to the edge and must be used with caution.
+**PLEASE NOTE**: The 18500 battery pack actually supports more current than this pack, is smaller, and supports the routing of user control connections through the battery pack to reducing enclosure wiring. HOWEVER, the 18500 pack has traces EXTEMELY close to the edge and must be used with caution.
 
 ## Schematic
 ![Schematic](schematic_18650_pack.png)

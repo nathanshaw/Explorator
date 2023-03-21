@@ -1,0 +1,336 @@
+Pinlist
+
+Exported from explorator_mainboard_v1_99mm.sch at 3/21/23 12:14 PM
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Part     Pad      Pin        Dir      Net
+
+12V_IN   1        S          pas      12V
+         2        S          pas      GND
+
+BUT1     1        1          pas      BUT1
+         2        2          pas      GND
+
+BUT2     1        1          pas      BUT2
+         2        2          pas      GND
+
+BUT3     1        1          pas      BUT3
+         2        2          pas      GND
+
+BUT4     1        1          pas      BUT4
+         2        2          pas      GND
+
+C1       +        +          pas      5V
+         -        -          pas      GND
+
+C2       +        +          pas      12V
+         -        -          pas      GND
+
+C3       +        +          pas      5V
+         -        -          pas      GND
+
+C4       +        +          pas      5V
+         -        -          pas      GND
+
+C5       +        +          pas      5V
+         -        -          pas      GND
+
+C6       1        1          pas      5V
+         2        2          pas      GND
+
+D1       1        A          pas      N$25
+         2        C          pas      12V
+
+D2       1        A          pas      N$8
+         2        C          pas      12V
+
+D3       1        A          pas      N$12
+         2        C          pas      12V
+
+D4       1        A          pas      N$14
+         2        C          pas      12V
+
+D5       1        A          pas      N$2
+         2        C          pas      12V
+
+D6       1        A          pas      N$6
+         2        C          pas      12V
+
+D7       1        A          pas      N$18
+         2        C          pas      12V
+
+D8       1        A          pas      N$20
+         2        C          pas      12V
+
+D9       1        A          pas      N$22
+         2        C          pas      12V
+
+I2C1     1        1          pas      3.3V
+         2        2          pas      SDA0
+         3        3          pas      SCL0
+         4        4          pas      GND
+
+I2C2     1        1          pas      3.3V
+         2        2          pas      SDA0
+         3        3          pas      SCL0
+         4        4          pas      GND
+
+I2C3     1        1          pas      3.3V
+         2        2          pas      SDA0
+         3        3          pas      SCL0
+         4        4          pas      GND
+
+M1       1        S          pas      N$9
+         2        S          pas      N$3
+
+M2       1        S          pas      N$31
+         2        S          pas      N$30
+
+M3       1        S          pas      N$16
+         2        S          pas      N$15
+
+MOT1     EN       EN         io       MOT1_COAST
+         M1       M1         io       N$9
+         M2       M2         io       N$3
+         VM       VM         io                *** unconnected ***
+         DIR      DIR        io       MOT1_DIR
+         PWM      PWM        io       MOT1_SPEED
+         VIN      VIN        io       12V
+         GND1     GND1       io       GND
+         GND2     GND2       io       GND
+         FAULT    FAULT      io       MOT1_FAULT
+
+MOT2     EN       EN         io       MOT2_COAST
+         M1       M1         io       N$31
+         M2       M2         io       N$30
+         VM       VM         io                *** unconnected ***
+         DIR      DIR        io       MOT2_DIR
+         PWM      PWM        io       MOT2_SPEED
+         VIN      VIN        io       12V
+         GND1     GND1       io       GND
+         GND2     GND2       io       GND
+         FAULT    FAULT      io       MOT2_FAULT
+
+MOT3     EN       EN         io       MOT3_COAST
+         M1       M1         io       N$16
+         M2       M2         io       N$15
+         VM       VM         io                *** unconnected ***
+         DIR      DIR        io       MOT3_DIR
+         PWM      PWM        io       MOT3_SPEED
+         VIN      VIN        io       12V
+         GND1     GND1       io       GND
+         GND2     GND2       io       GND
+         FAULT    FAULT      io       MOT3_FAULT
+
+NEO_1A   1        1          pas      5V
+         2        2          pas      NEO_PIX1
+         3        3          pas      GND
+
+NEO_1B   1        1          pas      5V
+         2        2          pas      NEO_PIX1
+         3        3          pas      GND
+
+NEO_2A   1        1          pas      5V
+         2        2          pas      NEO_PIX2
+         3        3          pas      GND
+
+NEO_2B   1        1          pas      5V
+         2        2          pas      NEO_PIX2
+         3        3          pas      GND
+
+NEO_3A   1        1          pas      5V
+         2        2          pas      NEO_PIX3
+         3        3          pas      GND
+
+NEO_3B   1        1          pas      5V
+         2        2          pas      NEO_PIX3
+         3        3          pas      GND
+
+P1       1        1          pas      GND
+         2        2          pas      5V
+         3        3          pas      3.3V
+         4        4          pas      NOUT
+         5        5          pas      NIN
+         6        6          pas      SDA0
+         7        7          pas      SCL0
+         8        8          pas      I2S_BCLK
+         9        9          pas      I2S_LRCLK
+         10       10         pas      I2S_DATA
+
+POT1     1        1          pas      3.3V
+         2        2          pas      POT1
+         3        3          pas      AGND
+
+POT2     1        1          pas      3.3V
+         2        2          pas      POT2
+         3        3          pas      AGND
+
+PWR      1        1          pas      GND
+         2        2          pas      N$10
+
+PWR_REG  EN       EN         io       N$10
+         GND      GND        io       GND
+         VIN      VIN        io       12V
+         VOUT     VOUT       io       5V
+
+Q1       D        D          pas      N$25
+         G        G          pas      N$24
+         S        S          pas      GND
+
+Q2       D        D          pas      N$8
+         G        G          pas      N$5
+         S        S          pas      GND
+
+Q3       D        D          pas      N$12
+         G        G          pas      N$11
+         S        S          pas      GND
+
+Q4       D        D          pas      N$14
+         G        G          pas      N$13
+         S        S          pas      GND
+
+Q5       D        D          pas      N$2
+         G        G          pas      N$1
+         S        S          pas      GND
+
+Q6       D        D          pas      N$6
+         G        G          pas      N$4
+         S        S          pas      GND
+
+Q7       D        D          pas      N$18
+         G        G          pas      N$17
+         S        S          pas      GND
+
+Q8       D        D          pas      N$20
+         G        G          pas      N$19
+         S        S          pas      GND
+
+Q9       D        D          pas      N$22
+         G        G          pas      N$21
+         S        S          pas      GND
+
+R1       1        1          pas      SOL1
+         2        2          pas      N$24
+
+R2       1        1          pas      SOL2
+         2        2          pas      N$5
+
+R3       1        1          pas      SOL3
+         2        2          pas      N$11
+
+R4       1        1          pas      SOL4
+         2        2          pas      N$13
+
+R5       1        1          pas      SOL5
+         2        2          pas      N$1
+
+R6       1        1          pas      SOL6
+         2        2          pas      N$4
+
+R7       1        1          pas      SOL7
+         2        2          pas      N$17
+
+R8       1        1          pas      SOL8
+         2        2          pas      N$19
+
+R9       1        1          pas      SOL9
+         2        2          pas      N$21
+
+R10      1        1          pas      SDA0
+         2        2          pas      3.3V
+
+R11      1        1          pas      SCL0
+         2        2          pas      3.3V
+
+R12      1        1          pas      BUT1
+         2        2          pas      3.3V
+
+R14      1        1          pas      BUT2
+         2        2          pas      3.3V
+
+R15      1        1          pas      BUT3
+         2        2          pas      3.3V
+
+R16      1        1          pas      BUT4
+         2        2          pas      3.3V
+
+SOL1     1        S          pas      12V
+         2        S          pas      N$25
+
+SOL2     1        S          pas      12V
+         2        S          pas      N$8
+
+SOL3     1        S          pas      12V
+         2        S          pas      N$12
+
+SOL4     1        S          pas      12V
+         2        S          pas      N$14
+
+SOL5     1        S          pas      12V
+         2        S          pas      N$2
+
+SOL6     1        S          pas      12V
+         2        S          pas      N$6
+
+SOL7     1        S          pas      12V
+         2        S          pas      N$18
+
+SOL8     1        S          pas      12V
+         2        S          pas      N$20
+
+SOL9     1        S          pas      12V
+         2        S          pas      N$22
+
+U$2      0        0/RX1/T    io                *** unconnected ***
+         1        1/TX1/T    io                *** unconnected ***
+         2        2          io       MOT3_COAST
+         3        3/CAN-TX/PWM io       SOL1
+         4        4/CAN-RX/PWM io       SOL2
+         5        5/PWM      io       NEO_PIX1
+         6        6/PWM      io       SOL3
+         7        7/RX3      io       SOL9
+         8        8/TX3      io       NEO_PIX2
+         9        9/RX2/PWM  io       I2S_BCLK
+         10       10/TX2/PWM io       NEO_PIX3
+         11       11/MOSI    io       SOL5
+         12       12/MISO    io       SOL4
+         13       13/SCK/LED io       I2S_DATA
+         24       24         io                *** unconnected ***
+         25       25/T/PWM   io       MOT1_SPEED
+         26       26/A15     io       MOT1_DIR
+         27       27/A16     io       MOT1_FAULT
+         28       28/A17     io       MOT1_COAST
+         29       29/A18/SCL1 io       MOT2_DIR
+         30       30/A19/SDA1 io       MOT2_FAULT
+         31       31/A20     io       MOT2_COAST
+         32       32/T/PWM   io       MOT2_SPEED
+         33       33/T       io       BUT1
+         A10      A10        io       POT2
+         A11      A11        io       POT1
+         A12      A12        io       BUT3
+         A13      A13        io       BUT2
+         GND      GND        pwr      GND
+         PGM      PGM        io                *** unconnected ***
+         VIN      VIN        pwr      5V
+         3.3V     3.3V       pwr      3.3V
+         AGND     AGND       pwr      AGND
+         AREF     AREF       pwr      AREF
+         GND1     GND        pwr      GND
+         GND2     GND        pwr      GND
+         VBAT     VBAT       pwr      VBAT
+         VUSB     VUSB       pwr      VUSB
+         14/A0    14/A0      io       SOL6
+         15/A1    15/A1/T    io       SOL7
+         16/A2    16/A2/T    io       SOL8
+         17/A3    17/A3/T    io       BUT4
+         18/A4    18/A4/T/SDA0 io       SDA0
+         19/A5    19/A5/T/SCL0 io       SCL0
+         20/A6    20/A6/PWM  io       MOT3_SPEED
+         21/A7    21/A7/PWM  io       MOT3_DIR
+         22/A8    22/A8/T/PWM io       MOT3_FAULT
+         23/A9    23/A9/T/PWM io       I2S_LRCLK
+         3.3V1    3.3V       pwr      3.3V
+         3.3V2    3.3V       pwr      3.3V
+         RESET/DAC  A14/DAC    io                *** unconnected ***
+
